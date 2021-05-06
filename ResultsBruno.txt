@@ -361,3 +361,76 @@ Resources used:
  -- VIRTUAL MEM  = 152108kb
 
  -- ELAPSED TIME = 00:15:36
+
+
+Parallel - Dynamic, 2 threads
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad01
+
+Initial Time is Thu May 6 10:28:04 BRT 2021
+
+Directory is /home/pp12705/trabalho/t1-prog-paralela
+
+This jobs runs on the following nodes:
+grad01
+
+JOB_ID:
+132087
+
+Execução 2 threads:
+10000 4.997986
+20000 19.939674
+30000 44.712408
+40000 79.691671
+50000 125.224283
+60000 179.170367
+70000 244.556594
+80000 320.370726
+90000 405.942770
+100000 504.152371
+99670
+99860
+99890
+99910
+99930
+99930
+99944
+99944
+99944
+99944
+
+real    32m8.766s
+user    64m9.969s
+sys     0m0.028s
+Final Time is Thu May 6 11:00:13 BRT 2021
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12705 on the batch nodes
+Doing node grad01
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 01:02:54
+
+ -- MEMORY       = 9696kb
+
+ -- VIRTUAL MEM  = 37364kb
+
+ -- ELAPSED TIME = 00:32:10
