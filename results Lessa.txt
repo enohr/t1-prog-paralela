@@ -1,0 +1,309 @@
+--------------------------------------------------------------------------------------
+16 THREADS
+
+PRIMEIRA TENTATIVA NO GRAD
+PARALLEL FOR SCHEDULE DYNAMIC
+Execução paralela (schedule dynamic):
+10000 0.749309
+20000 2.964280
+30000 6.608079
+40000 11.710685
+50000 18.328488
+60000 26.328390
+70000 35.941522
+80000 47.084367
+90000 59.835650
+100000 74.252688
+99670
+99860
+99890
+99910
+99930
+99930
+99944
+99944
+99944
+99944
+
+real    4m43.809s
+user    75m29.647s
+sys     0m0.048s
+Final Time is Sun May 2 18:59:47 BRT 2021
+
+Resources used:
+
+ -- CPU TIME     = 01:08:20
+
+ -- MEMORY       = 9688kb
+
+ -- VIRTUAL MEM  = 152108kb
+
+ -- ELAPSED TIME = 00:04:44
+
+10000 0.761223
+20000 2.978457
+30000 6.613813
+40000 11.741257
+50000 18.382860
+60000 26.365166
+70000 35.968093
+80000 47.045752
+90000 59.793655
+100000 74.199984
+99670
+99860
+99890
+99910
+99930
+99930
+99944
+99944
+99944
+99944
+
+real    4m43.856s
+user    75m30.147s
+sys     0m0.072s
+Final Time is Wed May 5 20:25:34 BRT 2021
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12715 on the batch nodes
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 01:12:02
+
+ -- MEMORY       = 9684kb
+
+ -- VIRTUAL MEM  = 152108kb
+
+ -- ELAPSED TIME = 00:04:45
+
+ --------------------------------------------------------------------------------------
+8 THREADS
+10000 0.890666
+20000 3.485971
+30000 7.760680
+40000 13.759634
+50000 21.502950
+60000 30.897837
+70000 42.123927
+80000 55.054710
+90000 69.930229
+100000 86.652119
+99670
+99860
+99890
+99910
+99930
+99930
+99944
+99944
+99944
+99944
+
+real    5m32.064s
+user    44m10.486s
+sys     0m0.028s
+Final Time is Wed May 5 20:36:10 BRT 2021
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12715 on the batch nodes
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:40:19
+
+ -- MEMORY       = 9692kb
+
+ -- VIRTUAL MEM  = 86536kb
+
+ -- ELAPSED TIME = 00:05:33
+ --------------------------------------------------------------------------------------
+4 THREADS
+
+10000 1.663464
+20000 6.582406
+30000 14.691119
+40000 26.000183
+50000 40.735290
+60000 58.595605
+70000 79.848411
+80000 104.277577
+90000 132.595378
+100000 165.087018
+99670
+99860
+99890
+99910
+99930
+99930
+99944
+99944
+99944
+99944
+
+real    10m30.082s
+user    41m54.913s
+sys     0m0.028s
+Final Time is Wed May 5 20:50:33 BRT 2021
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12715 on the batch nodes
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:40:04
+
+ -- MEMORY       = 9692kb
+
+ -- VIRTUAL MEM  = 53756kb
+
+ -- ELAPSED TIME = 00:10:30
+ 
+--------------------------------------------------------------------------------------
+2 THREADS
+10000 3.301564
+20000 13.080284
+30000 29.308574
+40000 52.000652
+50000 81.609692
+60000 117.255013
+70000 160.071173
+80000 210.125948
+90000 268.291647
+100000 334.095019
+99670
+99860
+99890
+99910
+99930
+99930
+99944
+99944
+99944
+99944
+
+real    21m9.145s
+user    42m12.958s
+sys     0m0.012s
+Final Time is Wed May 5 21:14:29 BRT 2021
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12715 on the batch nodes
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:41:07
+
+ -- MEMORY       = 9692kb
+
+ -- VIRTUAL MEM  = 37360kb
+
+ -- ELAPSED TIME = 00:21:10
+
+--------------------------------------------------------------------------------------
+SEQUENCIAL
+10000 2.738364
+20000 10.968950
+30000 24.453906
+40000 43.462277
+50000 68.095798
+60000 97.950313
+70000 133.554223
+80000 174.669973
+90000 220.933511
+100000 273.966325
+99670
+99860
+99890
+99910
+99930
+99930
+99944
+99944
+99944
+99944
+
+real    17m30.799s
+user    17m28.746s
+sys     0m0.028s
+Final Time is Wed May 5 21:57:43 BRT 2021
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12715 on the batch nodes
+Doing node grad04
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:17:08
+
+ -- MEMORY       = 9696kb
+
+ -- VIRTUAL MEM  = 29208kb
+
+ -- ELAPSED TIME = 00:17:31
